@@ -40,7 +40,7 @@ p{
    text-align: center;
    font-size: 1.5em;
 }
-#foto {
+@media only screen and (min-width: 768px) #foto {
     margin-top: -195px;
     margin-left: 10px;
     width: 400px;
