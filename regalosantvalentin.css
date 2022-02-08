@@ -40,6 +40,10 @@ p{
    text-align: center;
    font-size: 1.5em;
 }
+#foto{
+   margin-top: 200px;
+   width: 200px;
+}
 element.style {
     margin-top: 200px;
     width: 200px;
