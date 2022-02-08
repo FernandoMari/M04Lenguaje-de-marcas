@@ -35,4 +35,5 @@ body{
 #imagenes{
   display: flex;
   flex-wrap: no-wrap;
+  justify-content: space-between; 
 }
