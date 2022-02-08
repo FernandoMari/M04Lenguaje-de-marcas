@@ -36,7 +36,3 @@ body{
   display: flex;
   flex-wrap: no-wrap;
 }
-#imagenes div {
-  width: 70px;
-  height: 70px;
-}
