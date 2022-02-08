@@ -41,10 +41,7 @@ p{
    font-size: 1.5em;
 }
 #foto{
+   display:flex;
    margin-top: 200px;
    width: 200px;
-}
-element.style {
-    margin-top: 200px;
-    width: 200px;
 }
