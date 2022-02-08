@@ -40,8 +40,8 @@ p{
    text-align: center;
    font-size: 1.5em;
 }
-#foto{
-   display:flex;
-   margin-top: 200px;
-   width: 200px;
+#foto {
+    margin-top: -195px;
+    width: 400px;
 }
+
