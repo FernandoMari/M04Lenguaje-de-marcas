@@ -34,7 +34,7 @@ body{
 }
 #imagenes{
   display: flex;
-  justify-content: space-between;
+  flex-wrap: no-wrap;
 }
 #imagenes div {
   width: 70px;
