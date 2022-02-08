@@ -34,4 +34,5 @@ body{
 }
 #imagenes{
    display: flex;
+   justify-content: space-between;
    
