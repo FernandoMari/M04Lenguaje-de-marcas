@@ -40,9 +40,9 @@ p{
    text-align: center;
    font-size: 1.5em;
 }
-@media only screen and (min-width: 400px) #foto {
+#foto {
     margin-top: -195px;
     margin-left: 10px;
-    width: 400px;
+    width: 200px;
 }
 
