@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Latido</title>
+<link href='http://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
+<script src="../prefixfree.js"></script>
+
+</head>
+
+<body>
+    <div id="latido">
+       <h1 id="texto">Te quiero Cristina</h1>
+       <h1 id="texto">Te amo Cristina</h1>
+        <img src="corazon.png" alt="corazon" />
+    </div>
+</body>
+</html>
