@@ -38,4 +38,8 @@ body{
   border: 1px solid #c3c3c3;
   display: flex;
   justify-content: space-between;
-   
+}
+#imagenes div {
+  width: 70px;
+  height: 70px;
+}
