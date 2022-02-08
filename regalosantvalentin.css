@@ -32,7 +32,7 @@ body{
    width:400px;
    
 }
-@media (min-width: 320px){ #imagenes{
+@media (min-width: 768px){ #imagenes{
   display: flex;
   justify-content: space-around; 
    }
