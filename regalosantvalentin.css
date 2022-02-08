@@ -32,9 +32,10 @@ body{
    width:400px;
    
 }
-@media (min-width: 200px) and (max-width: 600px) #imagenes{
+@media (min-width: 200px) and (max-width: 600px){ #imagenes{
   display: flex;
   justify-content: space-around; 
+   }
 }
 p{
    text-align: center;
