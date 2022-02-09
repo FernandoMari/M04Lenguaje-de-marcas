@@ -1,0 +1,39 @@
+.titulo{
+    background-color: seagreen;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 4px;
+    border: solid red;
+    border-radius: 25px;
+}
+#intro{
+    margin-top: 2px;
+    font-style: italic;
+    background-color: royalblue;
+    border: solid  purple;
+}
+.tabla,td,th{
+    border: 1px solid black;
+    text-align: center;
+}
+.tabla{
+    width: 50%;
+    border-collapse: collapse;
+}
+.listas{
+    background-color: sandybrown;
+    
+}
+ul{
+    list-style: square;
+}
+ol{
+    list-style: upper-roman;
+}
+#parrafos3{
+    display: flex;
+    justify-content: space-around;
+    background-color: salmon;
+}

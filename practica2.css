@@ -1,0 +1,108 @@
+/* Nav siempre visible */
+.barra {
+    background-color: purple;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+/* 3 Parrafos con espacio entre ellos */
+@media (min-width:200px) {
+    #parrafos {
+        display: flex;
+        justify-content: space-around;
+        background-color: rosybrown;
+        border: 1px solid black;
+    }
+}
+
+.parrafo1 {
+    background-color: sienna;
+    border: 1px solid black;
+}
+
+.parrafo2 {
+    background-color: steelblue;
+    border: 1px solid black;
+}
+
+.parrafo3 {
+    background-color: violet;
+    border: 1px solid black;
+}
+
+/* Posicion relativa de el div padre donde se encuentra el div con posicion absoluta */
+.relative {
+    position: relative;
+    width: 2079px;
+    height: 310px;
+    border: 1px solid black;
+}
+
+/* Div con Posicion absoluta */
+.parrafo8 {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 15em;
+    height: 13em;
+    background-color: wheat;
+    border: 1px solid black;
+}
+
+/* Divs con espacio entre ellos  */
+#cuerpo {
+    display: flex;
+    justify-content: space-between;
+    background-color: royalblue;
+    border: 1px solid black;
+}
+
+/* Div con con espacio entre el resto de parrafos en columna */
+.pcolumna {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: sandybrown;
+    border: 1px solid black;
+
+}
+
+/* Div de imagenes con tamaño minimo de 200px */
+.imagen {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+@media (min-width:200px) and (max-width:200px) {
+    .imagen {
+        display: none;
+
+    }
+}
+.pcolumna2 {
+    background-color: red;
+}
+/* Tamaño de la primera imagen */
+.leon {
+    height: 200px;
+    width: 200px;
+}
+/* Tamaño de la segunda imagen */
+.agua {
+    height: 200px;
+    width: 200px;
+}
+
+/*Div del pie de pagina con posicion fija */
+#pie {
+    position: fixed;
+    bottom: 0px;
+    width: 300px;
+    background-color: seagreen;
+    border: 1px solid black;
+
+}

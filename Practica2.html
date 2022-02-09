@@ -1,40 +1,120 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Listas</title>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-    <body>
-        <h1>Listas</h1>
-        <ul>
-            <li type="i">Escenari Lliure
-                <ol type="a">
-                    <li>ASPENCAT</li>
-                    <li>Buhos</li>
-                </ol>
-            </li>
-            <li type="i">Escenari alternatiu
-                <ul>
-                    <li type="disc">Roba estesa</li>
-                    <li type="disc">Les catarres</li>
-                </ul>
-            </li>
-            <li type="square">Festival A
-                 <li>Sala B
-                <ol>
-                    <li>Yesterday</li>
-                    <li>Muñeco diabolico</li>
-                </ol>
-                <li>Sala E
-                    <ol>
-                    <li type="square">El rey leon</li>
-                    <li type="square">Spiderman:Lejos de casa</li>
-                </ol>
-             <li type="square">Festival B
-            </li>
-        </ul>
-        <div><a href="index.html"> Volver al Inicio</a></div>
+<html lang="en">
 
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practica2.css">
+    <title>Practica 2</title>
+</head>
+
+<body>
+    <!-- 1 Div Barra Nav -->
+    <div class="barra">
+        <h1> Soy la barra nav siempre visible</h1>
+    </div>
+    <!-- 2 Div Tres parrafos  -->
+    <div id="parrafos">
+        <!-- Div parrafo 1 -->
+        <div class="parrafo1">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum magna at nulla feugiat egestas.
+                Ut
+                condimentum, augue vitae mollis sagittis, magna sapien condimentum odio, eu hendrerit tortor justo quis
+                mi.
+                Duis tincidunt nibh nec ante viverra tempor. Nam tempus ipsum eu dolor varius, vitae tempus lorem
+                iaculis.</p>
+        </div>
+        <!-- Div parrafo 2 -->
+        <div class="parrafo2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum magna at nulla feugiat egestas.
+                Ut
+                condimentum, augue vitae mollis sagittis, magna sapien condimentum odio, eu hendrerit tortor justo quis
+                mi.
+                Duis tincidunt nibh nec ante viverra tempor. Nam tempus ipsum eu dolor varius, vitae tempus lorem
+                iaculis.</p>
+        </div>
+        <!-- Div parrafo 3 -->
+        <div class="parrafo3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum magna at nulla feugiat egestas.
+                Ut
+                condimentum, augue vitae mollis sagittis, magna sapien condimentum odio, eu hendrerit tortor justo quis
+                mi.
+                Duis tincidunt nibh nec ante viverra tempor. Nam tempus ipsum eu dolor varius, vitae tempus lorem
+                iaculis.</p>
+        </div>
+    </div>
+    <!-- 3 Div Cuerpo -->
+    <div id="cuerpo">
+        <!-- Div 4 parrafo -->
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum magna at nulla feugiat egestas.
+                Ut
+                condimentum, augue vitae mollis sagittis, magna sapien condimentum odio, eu hendrerit tortor justo quis
+                mi.
+                Duis tincidunt nibh nec ante viverra tempor. Nam tempus ipsum eu dolor varius, vitae tempus lorem
+                iaculis.</p>
+        </div>
+        <!-- Div 3 Parrafos dentro del div el div del medio esta en columna -->
+        <div class="pcolumna">
+
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum magna at nulla feugiat
+                    egestas. Ut
+                    condimentum, augue vitae mollis sagittis, magna sapien condimentum odio, eu hendrerit tortor justo
+                    quis mi.
+                    Duis tincidunt nibh nec ante viverra tempor. Nam tempus ipsum eu dolor varius, vitae tempus lorem
+                    iaculis.</p>
+            </div>
+            <div class="pcolumna2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum magna at nulla feugiat
+                    egestas. Utcondimentum, augue vitae mollis sagittis, magna sapien condimentum odio, eu hendrerit
+                    tortor justo
+                    quis mi.Duis tincidunt nibh nec ante viverra tempor. Nam tempus ipsum eu dolor varius, vitae tempus
+                    loremiaculis.</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum magna at nulla feugiat
+                    egestas. Ut
+                    condimentum, augue vitae mollis sagittis, magna sapien condimentum odio, eu hendrerit tortor justo
+                    quis mi.
+                    Duis tincidunt nibh nec ante viverra tempor. Nam tempus ipsum eu dolor varius, vitae tempus lorem
+                    iaculis.</p>
+            </div>
+        </div>
+        <!-- Div Parrafo 8 -->
+        <div class="relative"> 
+            <div class="parrafo8">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum magna at nulla feugiat
+                    egestas. Ut
+                    condimentum, augue vitae mollis sagittis, magna sapien condimentum odio, eu hendrerit tortor justo
+                    quis mi.
+                    Duis tincidunt nibh nec ante viverra tempor. Nam tempus ipsum eu dolor varius, vitae tempus lorem
+                    iaculis.</p>
+            </div>
+        </div>
+    </div>
+    <!-- 4 Div Imagenes -->
+    <div class="imagen">
+        <!-- 1 Div Imagen -->
+        <div>
+            <img class="leon"
+                src="https://st.depositphotos.com/1020341/4233/i/600/depositphotos_42333899-stock-photo-portrait-of-huge-beautiful-male.jpg"
+                alt="leon">
+        </div>
+        <!-- 2 Div Imagen -->
+        <div>
+            <img class="agua" src="https://i.pinimg.com/originals/d9/da/a9/d9daa9768a870fd7554fe2abd8d53b36.gif"
+                alt="agua">
+        </div>
+
+    </div>
+    <!-- 5 Div Pie de pagina -->
+    <div id="pie">
+        <footer>
+            <p>Soy el pie de pagina</p>
+        </footer>
+    </div>
+</body>
+
 </html>
