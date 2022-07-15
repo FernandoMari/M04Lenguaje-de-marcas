@@ -1,0 +1,47 @@
+::selection{
+   background:rgba(255,51,102,.5);
+}
+body{
+   background:url("https://previews.123rf.com/images/artverau/artverau1601/artverau160100040/50868900-background-of-hearts-on-the-filaments-valentine-s-day.jpg");
+}
+#latido{
+   animation:7s latido infinite;
+   color:white;
+   font-family: 'Allura', cursive;
+   font-size:40px;
+   margin:0 auto;
+   text-align:center;
+   width:500px;
+}
+@keyframes latido{
+   0%{transform:scale(1)}
+   47%{transform:scale(1)}
+   48%{transform:scale(.9)}
+   50%{transform:scale(1.1)}
+   52%{transform:scale(.9)}
+   54%{transform:scale(1)}
+}
+#latido img{
+   width:500px;   
+}
+#latido h1{
+   position:absolute;
+   left:10%;
+   line-height:80px;
+   top:10%;
+   width:400px;
+   
+}
+@media (min-width: 768px){ #imagenes{
+  display: flex;
+  justify-content: space-around; 
+   }
+}
+p{
+   text-align: center;
+   font-size: 1.5em;
+}
+#foto {
+    width: 200px;
+   margin: auto;
+}
