@@ -43,5 +43,6 @@ p{
 }
 #foto {
     width: 200px;
+    justify-content: center;
 }
 
