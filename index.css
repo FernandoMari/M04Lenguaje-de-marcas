@@ -25,15 +25,16 @@ h1, h2 {
 }
 
 #enlaces a {
+    display: inline-block;
     margin: 0 10px;
 }
 
-#pie {
-    margin-top: 2em;
+.mienlace, .mienlace2, .mienlace3 {
+    display: inline-block;
     text-align: center;
 }
 
-.mienlace2, .mienlace3 {
+#pie {
     margin-top: 2em;
     text-align: center;
 }
@@ -51,3 +52,4 @@ p {
     margin-bottom: 1em;
     line-height: 1.5;
 }
+
