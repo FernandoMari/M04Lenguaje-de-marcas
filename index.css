@@ -20,10 +20,13 @@ h1, h2 {
 }
 
 #enlaces, .mienlace, .mienlace2, .mienlace3 {
-    display: inline;
     margin-top: 2em;
-    margin: 0 10px;
     text-align: center;
+}
+
+#enlaces a, .mienlace a, .mienlace2 a, .mienlace3 a {
+    display: inline-block; /* Hacemos que los enlaces se muestren en línea horizontal */
+    margin: 0 10px; /* Añadimos un espacio entre los enlaces */
 }
 
 #pie {
