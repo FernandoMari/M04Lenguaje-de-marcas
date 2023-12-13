@@ -20,7 +20,9 @@ h1, h2 {
 }
 
 #enlaces, .mienlace, .mienlace2, .mienlace3 {
+    display: inline;
     margin-top: 2em;
+    margin: 0 10px;
     text-align: center;
 }
 
